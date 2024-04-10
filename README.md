@@ -21,9 +21,9 @@
 
 By default the width does not include: margin, padding and borders.<br/> 
 The default CSS:
-element { <br/>
-box-sizing: content-box;
-      } <br/>
+```element { <br/>```
+```box-sizing: content-box;```
+```      } <br/>```
 
 So to find the width of the whole element we must add the left and right margin, left and right padding and left and right borders.
 
