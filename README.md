@@ -30,7 +30,7 @@ So to find the width of the whole element we must add the left and right margin,
 To include the border and paddiing in the width use border box and not content-box as a value for the property box-sizing.<br/>
 ```elementName { ```<br/>
 ```box-sizing: border-box;```<br/>
-```      } <br/>```
+```      } ```<br/>
 ###WIDTH = content width + padding + border 
 
 #### Neighbours margins can collapse onto each other as below<br/>
