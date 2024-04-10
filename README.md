@@ -21,11 +21,17 @@
 
 By default the width does not include: margin, padding and borders.<br/> 
 The default CSS:<br/>
-```element { <br/>```<br/>
+```element { ```<br/>
 ```box-sizing: content-box;```<br/>
 ```      } <br/>```
 
 So to find the width of the whole element we must add the left and right margin, left and right padding and left and right borders.
+
+To include the border and paddiing in the width use border box and not content-box as a value for the property box-sizing.<br/>
+```elementName { ```<br/>
+```box-sizing: border-box;```<br/>
+```      } <br/>```
+###WIDTH = content width + padding + border 
 
 #### Margins of neighbours can collapse as below<br/>
 ![image](https://github.com/nafizjiwa/BOXModel/assets/56348190/892fd431-a51e-44ed-a74b-4fe5a0dd770f)
