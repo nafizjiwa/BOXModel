@@ -22,8 +22,6 @@
 By default the width does not include: margin, padding and borders.<br/> 
 So to find the width of the whole element we must add the left and right margin, left and right padding and left and right borders.
 
-![image](https://github.com/nafizjiwa/BOXModel/assets/56348190/3bc385e3-acf7-42fc-a946-f4fcf6922537)
-
 #### Margins of neighbours can collapse as below<br/>
 ![image](https://github.com/nafizjiwa/BOXModel/assets/56348190/892fd431-a51e-44ed-a74b-4fe5a0dd770f)
 
