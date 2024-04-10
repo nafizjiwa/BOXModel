@@ -31,6 +31,7 @@ To include the border and paddiing in the width use border box and not content-b
 ```elementName { ```<br/>
 ```box-sizing: border-box;```<br/>
 ```      } ```<br/>
+
 ###WIDTH = content width + padding + border 
 
 #### Neighbours margins can collapse onto each other as below<br/>
