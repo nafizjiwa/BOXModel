@@ -20,9 +20,9 @@
 ![image](https://github.com/nafizjiwa/BOXModel/assets/56348190/df29b37f-0197-47d7-9363-3152caadb300)
 
 By default the width does not include: margin, padding and borders.<br/> 
-The default CSS:
-```element { <br/>```
-```box-sizing: content-box;```
+The default CSS:<br/>
+```element { <br/>```<br/>
+```box-sizing: content-box;```<br/>
 ```      } <br/>```
 
 So to find the width of the whole element we must add the left and right margin, left and right padding and left and right borders.
