@@ -9,7 +9,7 @@
 ##### The area contains the actual content of an element, including text and images.<br/>
 
 #### Margin Area<br/>
-##### They border the margin areas of neighbouring elements.<br/>
+##### Border the margin areas of neighbouring elements.<br/>
 
 ##### All elements are in a box <br/>
 
@@ -20,6 +20,11 @@
 ![image](https://github.com/nafizjiwa/BOXModel/assets/56348190/df29b37f-0197-47d7-9363-3152caadb300)
 
 By default the width does not include: margin, padding and borders.<br/> 
+The default CSS:
+element { <br/>
+box-sizing: content-box;
+      } <br/>
+
 So to find the width of the whole element we must add the left and right margin, left and right padding and left and right borders.
 
 #### Margins of neighbours can collapse as below<br/>
